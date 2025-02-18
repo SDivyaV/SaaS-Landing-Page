@@ -1,17 +1,20 @@
 {
   "name": "saas",
+  "homepage": "https://sdivyav.github.io/SaaS-Landing-Page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
     "clsx": "^2.1.1",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
